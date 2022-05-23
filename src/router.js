@@ -9,6 +9,7 @@ Vue.use(VueRouter)
 export const router = new VueRouter({
     mode: 'history',
     routes: [
+        { path: '/', redirect: '/formulario' },
         {path: '/formulario', component: Formulario},
         {path: '/punto2', component: Punto2}
     ]
