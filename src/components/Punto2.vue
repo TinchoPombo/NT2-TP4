@@ -2,7 +2,7 @@
 
   <section class="src-components-punto-2">
     <div class="jumbotron">
-      <button class="btn btn-warning my-3 mr-3" @click="getPostsXHRcb()">Pedir XHR</button>
+      <button class="btn btn-success my-3 mr-3" @click="getPostsXHRcb()">Pedir XHR</button>
       <button class="btn btn-success my-3 mr-3" @click="getPostsFetch()">Pedir Fetch </button>
       <button class="btn btn-success my-3 mr-3" @click="getPostsAxios()">Pedir Axios </button>
       <button class="btn btn-danger my-3" @click="posts=[]">CLEAR</button>
